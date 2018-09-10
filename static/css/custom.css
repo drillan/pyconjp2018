@@ -1,0 +1,52 @@
+
+/* cellの幅 */
+.rise-enabled .container {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* cell左側のrunボタン領域 */
+.rise-enabled .run_this_cell {
+    display: none;
+}
+
+/* cell左側のプロンプト領域 */
+.rise-enabled .prompt {
+    display: none;
+}
+
+/*
+.rise-enabled .rendered_html h3 {
+    margin-top: 0px !important;
+}
+*/
+
+.rise-enabled .rendered_html * + h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rise-enabled .rendered_html p {
+    margin: 5px;
+    padding-top: 10px;
+    line-height: 1.5em;
+}
+
+.rise-enabled code {
+    font-size: 16px;
+}
+
+.rise-enabled .reveal .slides :-webkit-any(h2) {
+    background: transparent;
+}
+
+.rise-enabled .reveal
+{
+    background-color: #fdf6e3;
+}
+
+/* table */
+.rise-enabled td,th {
+    padding:10px;
+    font-size: 150%
+}
