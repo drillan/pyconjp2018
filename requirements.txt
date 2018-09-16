@@ -1,0 +1,8 @@
+hide-code
+jupyter
+jupyter_contrib_nbextensions
+matplotlib
+numpy==1.14.5
+pandas
+rise
+tsumiki
