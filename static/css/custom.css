@@ -5,9 +5,9 @@
     height: 100% !important;
 }
 
-.tsumiki {
+/* .tsumiki {
     width: 100%;
-}
+} */
 
 /* cell左側のrunボタン領域 */
 .rise-enabled .run_this_cell {
@@ -37,7 +37,7 @@
 }
 
 .rise-enabled code {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .rise-enabled .reveal .slides :-webkit-any(h2) {
