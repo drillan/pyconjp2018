@@ -1,7 +1,0 @@
-name: rise-environment
-dependencies:
-  - python
-  - matplotlib
-  - pandas
-  - rise
-  - tsumiki
