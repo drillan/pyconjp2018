@@ -1,9 +1,7 @@
 name: rise-environment
-channels:
-  - conda-forge
 dependencies:
   - python
-  - numpy
   - matplotlib
   - pandas
   - rise
+  - tsumiki
